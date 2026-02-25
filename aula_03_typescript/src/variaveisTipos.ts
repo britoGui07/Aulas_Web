@@ -14,3 +14,7 @@ let situacao: "ativo" | "inativo" = "ativo" //Só aceita esses dois valores
 let idadeOuNulo: number | null = null
 
 console.log(`Nome: ${nome}, Idade ${idade}, Ativo: ${ativo}`)
+
+let valor = 48;
+
+console.log(valor)
