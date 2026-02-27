@@ -25,4 +25,9 @@ Link para o site oficial do [IFSP Boituva](https://btv.ifsp.edu.br/)
     - switch
     - loop
     - Também foi aprendido a importar e utilizar bibliotecas, exemplo promptSync para intereção
-    - Obs* Comando de execução com ts-node instalado (npx ts-node arquivo.ts)
+
+### Aula 04
+- Exercício para entrega sobre estruturas aprendidas até então
+    - Os exercícios estão localizados em aula_04_typescript/src/lab_04
+
+`Obs* Comando de execução com ts-node instalado (npx ts-node arquivo.ts)`
