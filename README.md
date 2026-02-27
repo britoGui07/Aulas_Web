@@ -16,4 +16,13 @@ Comando git que mais utilizei foi:
 Link para o site oficial do [IFSP Boituva](https://btv.ifsp.edu.br/)
 
 ### Aula 03
-    - Comando de execução com ts-node instalado (npx ts-node arquivo.ts)
+- Estruturas básicas aprendidas:
+    - variáveis
+    - operadores
+    - listas
+    - condicionais
+    - listas
+    - switch
+    - loop
+    - Também foi aprendido a importar e utilizar bibliotecas, exemplo promptSync para intereção
+    - Obs* Comando de execução com ts-node instalado (npx ts-node arquivo.ts)
