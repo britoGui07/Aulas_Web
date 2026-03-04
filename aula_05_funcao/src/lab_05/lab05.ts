@@ -14,4 +14,4 @@ console.log(elevar(5, 2))
 // Exercício 3
 let numeros: number[] = [12, 5, 28, 7, 9, 37]
 
-const dobrarNumeros = (numeros.filter(n, i => n[i]*2)
+// const dobrarNumeros = (numeros.filter(n, i => n[i]*2)
