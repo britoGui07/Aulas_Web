@@ -30,4 +30,8 @@ Link para o site oficial do [IFSP Boituva](https://btv.ifsp.edu.br/)
 - Exercício para entrega sobre estruturas aprendidas até então
     - Os exercícios estão localizados em aula_04_typescript/src/lab_04
 
-`Obs* Comando de execução com ts-node instalado (npx ts-node arquivo.ts)`
+#### Observações
+Comando de execução com ts-node instalado: `npx ts-node arquivo.ts`
+Bibliotecas básicas para instalar ao iniciar um novo projeto(npm install ou npm i): typescript | @types/node | ts-node | prompt-sync | @types/prompt-sync
+- Comando pronto apenas para colar: `npm i typescript @types/node ts-node prompt-sync @types/prompt-sync` // Adicione/remova as bibliotecas que precisar
+`npm init -y` inicializa o node no projeto && `npx tsc --init` inicializa o typescript no projeto
