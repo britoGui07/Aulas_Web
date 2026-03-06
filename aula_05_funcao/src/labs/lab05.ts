@@ -6,7 +6,7 @@ function maiuscula(content: string): string{
 }
 console.log(maiuscula('jubas'))
 
-const maiusculaLambda = (content: string): string => content.toUpperCase();
+const maiusculaLambda = (content: string): string => content.toUpperCase()
 console.log(maiusculaLambda('test'))
 
 // Exercício 2
@@ -18,9 +18,9 @@ console.log(elevar(5, 2))
 // Exercício 3
 console.log("\nExercício 3")
 
-function dobrarNumeros(numeros: number[]): number[]{
+function dobrarNumeros(array: number[]): number[]{
     let dobrados: number[] = []
-    for(const n of numeros){
+    for(const n of array){
         dobrados.push(n*2)
     }
     return dobrados
@@ -53,3 +53,39 @@ console.log(funcionarioCargoEspecifico)
 // Exercício 5
 console.log("\nExercício 5")
 
+type Aluno ={
+    nome: string
+    nota: number
+}
+
+const alunos: Aluno[] = [
+    {nome: "Alice", nota: 8},
+    {nome: "Bruno", nota: 5},
+    {nome: "Carla", nota: 7},
+    {nome: "Daniel", nota: 6}
+]
+
+const alunosAprovados = alunos.filter( aluno=>{
+    return aluno.nota >= 7
+})
+console.log(alunosAprovados)
+
+// Exercício 6
+console.log("\nExercício 6")
+
+type Evento ={
+    nome: string
+    mes: string
+}
+
+const eventos: Evento[] =[
+    {nome: "Workshop TypeScript", mes: "Janeiro"},
+    {nome: "Hackathon", mes: "Março"},
+    {nome: "Conferência de IA", mes: "Janeiro"}
+]
+const mesDesejado: string = "Janeiro"
+
+const eventoMesDesejado = eventos.filter(evento=>{
+    return evento.mes === mesDesejado
+})
+console.log(eventoMesDesejado)
