@@ -10,3 +10,4 @@ arquivos.sort((a,b) => a.localeCompare(b));
 console.log(arquivos);
 
 "jubas".localeCompare("JUBAS", undefined, {numeric:true, sensitivity: 'base'});
+'teste'.toLocaleLowerCase().localeCompare('TESTE'.toLocaleLowerCase());
