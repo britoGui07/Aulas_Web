@@ -1,4 +1,4 @@
-// array .map <U >( callback : ( value : T, index : number ) = > U): U[]
+// array.map <U >( callback : ( value : T, index : number ) = > U): U[]
 // map() serve para transformar o vetor, filter() apenas para redução
 const numeros: number[] = [1, 2, 3, 4, 5];
 
