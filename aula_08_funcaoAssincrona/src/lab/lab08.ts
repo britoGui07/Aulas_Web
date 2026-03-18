@@ -1,0 +1,1 @@
+type Tarefa = {descricao: string, prioridade: number, concluida: boolean}
