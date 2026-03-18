@@ -31,3 +31,14 @@ const versoesSoftware: string[] = ['1.10.0', '1.2.1', '1.0.5', '1.20.0']
 versoesSoftware.sort((a, b) => a.localeCompare(b, undefined, {numeric: true, sensitivity: 'base'})
 )
 console.log(versoesSoftware)
+
+// Desafio: Tente realizar a ordenação sem modificar o array original.
+
+// Exercicio 4
+console.log("\n\nExercício 4")
+const estudantes = [
+{ nome : 'Ricardo ', nota : 8.5 , bolsista : false } ,
+{ nome : 'Beatriz ', nota : 9.2 , bolsista : true } ,
+{ nome : 'Tiago ', nota : 7.0 , bolsista : false } ,
+{ nome : 'Maria ', nota : 9.8 , bolsista : true }
+];
