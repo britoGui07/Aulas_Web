@@ -15,20 +15,24 @@ function imprimirTarefa(descricao: string, indice: number, totalTarefas: number)
     console.log(`Progresso: ${indice + 1}/${totalTarefas}`) ;
 }
 
-function executarTarefas(
-    tarefas: Tarefa[], 
-    callback: (descricao: string, indice: number, total: number) => void, 
-    intervalo: number = 1000
-): void{
+function executarTarefas(tarefas: Tarefa[], callback: (descricao: string, indice: number, total: number) => void, intervalo: number = 1000): void{
+    tarefas.sort((a, b) => b.prioridade - a.prioridade)
+    // let tarefasY = [...tarefas].sort((a, b) => b.prioridade - a.prioridade)
+    let contador = 0
 
-    tarefas.sort((a, b) => a.prioridade - b.prioridade)
+    const interval = setInterval(() =>{
+        const taskCount = tarefas.length
+        if(contador < taskCount || tarefas[contador]?.descricao === 'Cancelar'){
+            clearInterval(interval)
+        }else{
+            const tarefa = tarefas[contador]
+            if(tarefa){
+                tarefa.concluida = true
+                callback(tarefa.descricao, contador, taskCount)
+                contador++
+            }
+        }
+    }, intervalo)
 
 }
-/*
-let contador = 0
-const total = tarefas.length
-
-const interval = setInterval(() =>{
-})
-*/
-// executarTarefas(tarefas, )
+console.log(executarTarefas(tarefas, imprimirTarefa, 1500))
