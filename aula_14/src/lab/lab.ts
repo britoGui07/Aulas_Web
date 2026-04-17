@@ -1,3 +1,4 @@
+// Exercício 1
 function calcularMedia(notas: number[]): number{
     try{
         if(notas.length === 0){
