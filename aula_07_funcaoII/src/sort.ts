@@ -11,3 +11,7 @@ console.log(arquivos);
 
 "jubas".localeCompare("JUBAS", undefined, {numeric:true, sensitivity: 'base'});
 'teste'.toLocaleLowerCase().localeCompare('TESTE'.toLocaleLowerCase());
+
+const notas: number[] = [7, 10, 3, 8, 5];
+notas.sort();
+console.log(notas);

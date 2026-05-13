@@ -30,6 +30,9 @@ Link para o site oficial do [IFSP Boituva](https://btv.ifsp.edu.br/)
 - Exercício para entrega sobre estruturas aprendidas até então
     - Os exercícios estão localizados em aula_04_typescript/src/lab_04
 
+### Aula 18
+- Exercícios sobre API Rest e testes de rotas com Postman
+
 #### Observações
 Comando de execução com ts-node instalado: `npx ts-node arquivo.ts`
 Bibliotecas básicas para instalar ao iniciar um novo projeto(npm install ou npm i): typescript | @types/node | ts-node | prompt-sync | @types/prompt-sync
